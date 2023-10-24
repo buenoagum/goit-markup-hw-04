@@ -73,10 +73,26 @@ body{
 .strategy{
     gap: 24px;
 }
+.svg{
+    background-color: var(--cloud);
+    text-align: center;
+    padding: 24px 0;
+}
 
-section{
+.section{
+    background-color: var(--cloud);
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.team section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-caption{
+    background-color: white;
+    padding: 32px 0px;
 }
 
 .bg-dark{
@@ -134,7 +150,32 @@ section{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.4px;
+    margin-top: 0%;
 }
+
+.team-caption {
+    text-align: center;
+}
+
+.team-sm{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.team-sm-icon{
+    background-color: var(--iris);
+    fill: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+
  .p-dark{
     color: var(--slate);
     line-height: 1.5;
