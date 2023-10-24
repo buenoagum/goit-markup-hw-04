@@ -1,0 +1,167 @@
+:root{
+    --iris:#4d5ae5;
+    --navyblue: #2e2f42;
+    --ocean: #484bbf;
+    --white: #fff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+
+}
+
+.logo-web { 
+    color:var(--iris);  
+}
+
+.logo-studio{
+    color: var(--cloud);
+}
+
+.logo{
+    color:var(--slate);
+    font-family: raleway;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+body{
+    font-family: roboto;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-link{
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--navyblue);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean);
+}
+
+.active{
+    color: var(--ocean);
+}
+
+.contacts{
+    line-height: 1.5;
+    color: var(--slate);
+    letter-spacing: 0.32px;
+}
+
+.studio {
+    gap: 40px;
+}
+
+.info {
+    gap: 40px;
+}
+
+.strategy{
+    gap: 24px;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.bg-dark{
+    background-color:var(--navyblue);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.hero-class{
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color:var(--iris);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--ocean);
+}
+
+.container {
+    width: 1158px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .d-flex {
+    align-items: center;
+    gap: 76px;
+}
+
+.team-name{
+    color: var(--navyblue); 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+ .p-dark{
+    color: var(--slate);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+ }
+
+.center {
+    text-align: center;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.footer {
+ background-color: var(--navyblue);
+
+}
+
+.p-footer{
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.a-footer{
+    color: var(--white);
+}
